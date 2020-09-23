@@ -11,7 +11,7 @@ class Matrix():
 
     def __init__(self,list_):
 
-        self.matrix = []# This reassignement of the list is to prevent quasi-connectivity
+        self.matrix = []# This reassignement of the list is to prevent linking of lists
         for row in list_:
             newrow = []
             for value in row:
